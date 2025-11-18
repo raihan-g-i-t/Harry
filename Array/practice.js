@@ -15,3 +15,16 @@ arr2.forEach(element => {
         console.log(element);
     }
 });
+
+let temp = arr2.filter(element => {
+    return element%10===0;
+});
+console.log(temp);
+
+//5
+let red = [1, 2, 3, 4, 5];
+
+let factorial = red.reduce((r1, r2) => {
+    return r1 * r2;
+})
+console.log(factorial);
